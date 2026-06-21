@@ -1,1 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#fff;
+}
+
+.custom-navbar{
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    padding: 15px 0;
+}
+
+/* Brand */
+.navbar-brand{
+    font-weight: 700;
+    font-size: 22px;
+    color: #8b5cf6;
+}
+
+.navbar-brand .dot{
+    color: #ec4899;
+}
+
+/* Nav Links */
+.nav-link{
+    color: #555;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    background: #f3e8ff;
+    color: #7c3aed;
+    transform: translateY(-2px);
+}
+
+.nav-link.active{
+    background: #ede9fe;
+    color: #6d28d9 !important;
+    font-weight: 600;
+}
+
+/* Hire Me Button */
+.btn-hire{
+    background: linear-gradient(135deg, #a855f7, #ec4899);
+    color: white;
+    padding: 8px 18px;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn-hire:hover{
+    transform: scale(1.05);
+    color: white;
+}
+
+/* Mobile spacing fix */
+@media (max-width: 991px){
+    .navbar-nav{
+        padding-top: 10px;
+    }
+}
+
+
+
+
+/* Hero */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    background:
+    linear-gradient(
+        135deg,
+        #ffe4f5,
+        #f0e4ff
+    );
+}
+
+.intro-tag{
+    background:white;
+    padding:10px 18px;
+    border-radius:30px;
+    display:inline-block;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:4rem;
+    font-weight:700;
+}
+
+.highlight{
+    color:#a855f7;
+}
+
+.hero h3{
+    color:#666;
+    margin:15px 0;
+}
+
+.hero p{
+    color:#555;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.btn-main{
+    background:#d946ef;
+    color:white;
+    padding:12px 30px;
+    border-radius:30px;
+}
+
+.btn-main:hover{
+    background:#c026d3;
+    color:white;
+}
+
+.hero-image{
+    width: 380px;
+    max-width: 100%;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.social-icon img{
+    width: 22px;
+    height: 22px;
+}
+
+.social-icon{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.social-icon:hover{
+    transform: translateY(-3px);
+    background: transparent;
+    
+}
+
+.project-slider{
+    background: linear-gradient(135deg, #ffe4f5, #f0e4ff);
+}
+
+.project-slider h2{
+    font-weight: 500;
+    color: #6b4fa3;
+}
+
+.carousel-inner img{
+    height: 350px;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.about-section{
+    background: #fff;
+}
+
+.about-section h2{
+    font-weight: 700;
+    color: #6b4fa3;
+}
+
+.about-card{
+    background: linear-gradient(135deg, #ffe4f5, #f0e4ff);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    height: 100%;
+}
+
+.about-card:hover{
+    transform: translateY(-8px);
+}
+
+.about-card h4{
+    margin-bottom: 15px;
+    color: #5a3e8c;
+}
+
+.about-card p, 
+.about-card li{
+    color: #555;
+    line-height: 1.7;
+}
 
