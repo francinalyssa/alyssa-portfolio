@@ -1,46 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alyssa Francin | Portfolio</title>
+
+    <title>Alyssa Francin Eyay | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<>
 
-<!-- Navbar -->
+<body>
+
+<!-- ========================= NAVBAR ========================= -->
+
 <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
 
     <div class="container">
 
-        <!-- Brand -->
-        <a class="navbar-brand" href="#home">
-            Alyssa<span class="dot">.</span>
+        <a class="navbar-brand" href="#">
+            Alyssa<span>.</span>
         </a>
 
-        <!-- Toggle -->
-        <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav">
+        <button class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+
             <span class="navbar-toggler-icon"></span>
+
         </button>
 
-        <!-- Links -->
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse"
+            id="navbarNav">
 
-            <ul class="navbar-nav ms-auto align-items-lg-center gap-2">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
 
                 <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#home" class="nav-link active">Home</a>
                 </li>
 
                 <li class="nav-item">
                     <a href="#about" class="nav-link">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
                 </li>
 
                 <li class="nav-item">
@@ -51,11 +67,16 @@
                     <a href="#contact" class="nav-link">Contact</a>
                 </li>
 
-                <!-- Button -->
-                <li class="nav-item">
-                   <a href="assets/EYAY-Resume.pdf" target="_blank" class="btn btn-hire ms-lg-3">
-                        View Resume ✨
+                <li class="nav-item ms-lg-3">
+
+                    <a href="assets/EYAY-Resume.pdf"
+                        target="_blank"
+                        class="btn btn-resume">
+
+                        Resume
+
                     </a>
+
                 </li>
 
             </ul>
@@ -66,67 +87,115 @@
 
 </nav>
 
-<!-- Hero Section -->
+<!-- ========================= HERO ========================= -->
+
 <section id="home" class="hero">
+
+    <!-- Floating Blurs -->
+
+    <div class="blur blur1"></div>
+    <div class="blur blur2"></div>
+    <div class="blur blur3"></div>
 
     <div class="container">
 
         <div class="row align-items-center">
 
+            <!-- LEFT -->
+
             <div class="col-lg-6">
 
-                <span class="intro-tag">
-                    👋 Welcome to my portfolio
+                <span class="hero-tag">
+
+                    Hello!, Welcome to my Portfolio
+
                 </span>
 
                 <h1>
+
                     Hi, I'm
-                    <span class="highlight">
-                        Alyssa Francin
-                    </span>
+
+                    <span>Alyssa Francin Eyay</span>
+
                 </h1>
 
-                <h3>Aspiring Front-End Developer</h3>
+                <h3>
+
+                    BS Information Technology Graduate
+
+                </h3>
 
                 <p>
-                    An Information Technology graduate passionate about front-end development and web design. Eager to apply my skills in creating responsive, user-centered websites and continuously learn new technologies.
+
+                    I enjoy creating clean, responsive, and user-friendly
+                    websites that combine functionality with thoughtful
+                    design. I'm passionate about continuous learning and
+                    excited to begin my career as a Front-End Developer.
+
                 </p>
 
-               <div class="d-flex align-items-center gap-3 mt-3">
+                <div class="hero-buttons">
 
-                    <!-- Button -->
-                    <a href="#contact" class="btn btn-main">
-                        Get in touch →
+                    <a href="#projects" class="btn btn-primary-custom">
+
+                        View Projects
+
                     </a>
 
-                   <!-- Social Icons -->
-                    <a href="https://www.facebook.com/alii.frncin" target="https://www.facebook.com/alii.frncin" class="social-icon">
-                        <img src="images/facebook.png" alt="Facebook">
-                    </a>
+                    <a href="assets/EYAY-Resume.pdf"
+                        target="_blank"
+                        class="btn btn-outline-custom">
 
-                    <a href="https://www.instagram.com/aly_frncn/" target="https://www.instagram.com/aly_frncn/" class="social-icon">
-                        <img src="images/social.png" alt="Instagram">
-                    </a>
+                        Download CV
 
-                    <a href="https://github.com/francinalyssa" target="https://github.com/francinalyssa" class="social-icon">
-                        <img src="images/github-logo.png" alt="GitHub">
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/alyssa-francin-eyay-317a55396" target="https://www.linkedin.com/in/alyssa-francin-eyay-317a55396" class="social-icon">
-                        <img src="images/linkedin.png" alt="LinkedIn">
                     </a>
 
                 </div>
 
-                
+                <div class="social-links mt-4">
+
+                    <a href="https://facebook.com/alii.frncin"
+                        target="_blank">
+
+                        <i class="bi bi-facebook"></i>
+
+                    </a>
+
+                    <a href="https://github.com/francinalyssa"
+                        target="_blank">
+
+                        <i class="bi bi-github"></i>
+
+                    </a>
+
+                    <a href="https://linkedin.com/in/alyssa-francin-eyay-317a55396"
+                        target="_blank">
+
+                        <i class="bi bi-linkedin"></i>
+
+                    </a>
+
+                    <a href="mailto:francinalyssa@gmail.com">
+
+                        <i class="bi bi-envelope-fill"></i>
+
+                    </a>
+
+                </div>
 
             </div>
+
+            <!-- RIGHT -->
 
             <div class="col-lg-6 text-center">
 
-                <img src="images/profile.png"
-                     class="hero-image"
-                     alt="Profile">
+                <div class="image-wrapper">
+
+                    <img src="images/profile1.png"
+                        class="hero-image"
+                        alt="Alyssa">
+
+                </div>
 
             </div>
 
@@ -136,51 +205,345 @@
 
 </section>
 
-<!-- About Me Section -->
-<section id="about" class="about-section py-5">
+<!-- ========================= ABOUT ========================= -->
+
+<section id="about" class="about py-5">
+
+<div class="container">
+
+<div class="row align-items-center g-5">
+
+<div class="col-lg-5 text-center">
+
+<img src="images/profile2.png"
+class="about-image"
+alt="About Me">
+
+</div>
+
+<section class="col-lg-7">
+
+<span class="section-tag">
+
+About Me
+
+</span>
+
+<h2>
+
+Get to Know Me
+
+</h2>
+
+<p>
+
+Hello! I'm Alyssa, a recent Bachelor of Science in Information Technology graduate with a passion for front-end development and creating user-friendly digital experiences.
+
+</p>
+
+<p>
+
+Throughout my academic journey, I worked on web development, system design, software testing, and documentation. I enjoy learning new technologies and continuously improving my technical and problem-solving skills.
+
+</p>
+
+<div class="row mt-4">
+
+    <div class="col-md-6">
+
+        <div class="info-card">
+
+            <h6><i class="bi bi-geo-alt-fill info-icon"></i> Location</h6>
+
+            <p>Batangas, Philippines</p>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-6">
+
+        <div class="info-card">
+
+            <h6><i class="bi bi-mortarboard-fill info-icon"></i> Education</h6>
+
+            <p>BS Information Technology</p>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-6 mt-3">
+
+        <div class="info-card">
+
+            <h6><i class="bi bi-briefcase-fill info-icon"></i> Status</h6>
+
+            <p>Open to Opportunities</p>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-6 mt-3">
+
+        <div class="info-card">
+
+            <h6><i class="bi bi-palette-fill info-icon"></i> Interests</h6>
+
+            <p>Frontend • UI Design</p>
+
+        </div>
+
+    </div>
+
+</div>
+</section>
+
+
+<!-- ========================= SKILLS ========================= -->
+
+<section id="skills" class="skills py-5">
 
     <div class="container">
 
-        <h2 class="text-center mb-5">About Me</h2>
+        <div class="text-center mb-5">
+
+            <span class="section-tag">My Skills</span>
+
+            <h2>Technologies I Work With</h2>
+
+            <p>
+                Here are some of the technologies and tools I've used in
+                academic projects and during my internship.
+            </p>
+
+        </div>
 
         <div class="row g-4">
 
-            <!-- Personal Info -->
-            <div class="col-md-4">
-                <div class="about-card">
-                    <h4>Personal Info</h4>
-                    <p><b>Name:</b> Alyssa Francin</p>
-                    <p><b>Course:</b> BS Information Technology</p>
-                    <p><b>Location:</b> Philippines</p>
-                    <p><b>Status:</b>Aspiring Front End Developer</p>
+            <!-- Frontend -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+
+                    <h4>Frontend</h4>
+
+                    <div class="skill-list">
+
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Bootstrap 5</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+
+                    </div>
+
                 </div>
+
             </div>
 
-            <!-- Hobbies -->
-            <div class="col-md-4">
-                <div class="about-card">
-                    <h4>Hobbies</h4>
-                    <ul>
-                        <li>Coding & Web Design</li>
-                        <li>Watching Movies</li>
-                        <li>Traveling</li>
-                        <li>Listening to Music</li>
-                        <li>UI/UX Designing</li>
-                    </ul>
+            <!-- Backend -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        <i class="bi bi-server"></i>
+                    </div>
+
+                    <h4>Backend</h4>
+
+                    <div class="skill-list">
+
+                        <span>Node.js</span>
+                        <span>PHP</span>
+
+                    </div>
+
                 </div>
+
             </div>
 
-            <!-- Favorites -->
-            <div class="col-md-4">
-                <div class="about-card">
-                    <h4>Favorites</h4>
-                    <ul>
-                        <li>Color: Pastel Purple & Pink</li>
-                        <li>Food: Fries & Burger</li>
-                        <li>Quote: “Progress over perfection”</li>
-                        <li>Activity: Designing websites</li>
-                    </ul>
+            <!-- Database -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        <i class="bi bi-database"></i>
+                    </div>
+
+                    <h4>Database</h4>
+
+                    <div class="skill-list">
+
+                        <span>MySQL</span>
+
+                    </div>
+
                 </div>
+
+            </div>
+
+            <!-- Tools -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        <i class="bi bi-tools"></i>
+                    </div>
+
+                    <h4>Tools</h4>
+
+                    <div class="skill-list">
+
+                        <span>GitHub</span>
+                        <span>VS Code</span>
+                        <span>Figma</span>
+                        <span>Tableau</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="projects" class="projects">
+
+    <div class="container">
+
+        <!-- Section Header -->
+        <div class="section-header text-center mb-5">
+
+            <span class="section-tag">Portfolio</span>
+
+            <h2>Featured Projects</h2>
+
+            <p>
+                Here are some of the projects I've developed throughout my academic journey.
+            </p>
+
+        </div>
+
+        <!-- ===================== Project 1 ===================== -->
+
+        <div class="featured-project">
+
+            <div class="project-image">
+
+                <div id="tourEaseCarousel" class="carousel slide">
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="images/project1.png" class="d-block w-100" alt="TourEase 1">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/project2.png" class="d-block w-100" alt="TourEase 2">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/project3.png" class="d-block w-100" alt="TourEase 3">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="project-details">
+
+                <span class="project-number">01</span>
+
+                <h3>TourEase</h3>
+
+                <h6>Capstone Project</h6>
+
+                <p>
+                    A tourism assistance platform that helps visitors discover destinations,
+                    QR check-ins, navigation, emergency assistance, and resort recommendations.
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>MySQL</span>
+                    <span>Bootstrap</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- ===================== Project 2 ===================== -->
+
+        <div class="featured-project reverse">
+
+            <div class="project-image">
+
+                <div id="internshipCarousel" class="carousel slide">
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="images/p1.png" class="d-block w-100" alt="IMS 1">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/p2.png" class="d-block w-100" alt="IMS 2">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/p3.png" class="d-block w-100" alt="IMS 3">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="project-details">
+
+                <span class="project-number">02</span>
+
+                <h3>Insurance Management System</h3>
+
+                <h6>Internship Project</h6>
+
+                <p>
+                    A web-based system developed during my internship to manage applicants,
+                    appointments, availability schedules, and administrative tasks.
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>PHP</span>
+                    <span>Supabase</span>
+
+                </div>
+
             </div>
 
         </div>
@@ -189,49 +552,84 @@
 
 </section>
 
+<!-- ========================= EXPERIENCE ========================= -->
 
-
-<!-- Slideshow Section -->
-<section id="projects" class="project-slider py-5">
+<section id="experience" class="experience py-5">
 
     <div class="container">
 
-        <h2 class="text-center mb-4">My Recent Projects</h2>
+        <div class="text-center mb-5">
 
-        <div id="projectCarousel" class="carousel slide"
-     data-bs-ride="carousel"
-     data-bs-interval="2000">
+            <span class="section-tag">
+                Experience
+            </span>
 
-            <!-- Indicators -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2"></button>
-            </div>
+            <h2>My Journey</h2>
 
-            <!-- Slides -->
-            <div class="carousel-inner rounded-4 shadow">
+            <p>
+                A quick overview of my academic and professional journey.
+            </p>
 
-                <div class="carousel-item active">
-                    <img src="images/project1.png" class="d-block w-100" alt="Project 1">
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-year">Aug 2022</span>
+
+                    <h4>Started BS Information Technology</h4>
+
+                    <p>
+                        I began my journey in <b>Bachelor of Science in Information Technology (BSIT)</b> where I built a strong foundation in Microsoft Office, programming, web development, databases, and software engineering. Throughout my academic journey, I consistently took on the role of <b>Front-End Developer</b> in our group projects, focusing on creating responsive and user-friendly interfaces. I also gained hands-on experience in application development, software testing, debugging, and problem-solving while continuously improving my technical and collaboration skills.
+
+                    </p>
+
                 </div>
 
-                <div class="carousel-item">
-                    <img src="images/project2.png" class="d-block w-100" alt="Project 2">
-                </div>
+            </div>
 
-               
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-year">Feb 2026</span>
+
+                    <h4>Internship</h4>
+
+                    <p>
+                        Completed <b>500 hours of internship at Pru Life UK – Black Orcas </b> in the IT Department, where I gained valuable professional experience under the guidance of my manager and mentor. As part of the development team, we built an internal system for the company, and I served as the <b>Front-End Developer</b>, focusing on designing and developing responsive user interfaces. Throughout the internship, I also contributed to system development, software testing, deployment, documentation, and client presentations while strengthening my teamwork, communication, and problem-solving skills in a professional work environment.
+
+                    </p>
+
+                </div>
 
             </div>
 
-            <!-- Controls -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
+            <div class="timeline-item">
 
-            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-year">Jul 2026</span>
+
+                    <h4>Graduated</h4>
+
+                    <p>
+                        Successfully earned my <b>Bachelor of Science in Information Technology</b>, majoring in <b>Business Analytics</b>. Throughout my academic journey, I developed a strong foundation in frontend development, web technologies, and business analytics. As a recent graduate, I am now seeking my first professional opportunity where I can apply my technical skills, continue learning, and contribute to meaningful projects as a Front-End Developer or IT professional.
+
+                    </p>
+
+                </div>
+
+            </div>
 
         </div>
 
@@ -239,52 +637,235 @@
 
 </section>
 
-<!-- Contact Section -->
-<section id="contact" class="about-section py-5">
+<!-- ========================= CERTIFICATES ========================= -->
+
+<section class="certificates py-5">
+
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <h6>Alyssa Francin Eyay</h6>
-                <p>francinalyssa@gmail.com</p>
-            </div>
-           <div class="col-lg-6 d-flex justify-content-end align-items-center">  
-            <div>
-                <h7>Connect with me: </h7>
-                <div class="d-flex align-items-center">
-                    <a href="https://www.facebook.com/alii.frncin" target="_blank" class="social-icon">
-                        <img src="images/facebook.png" alt="Facebook">
-                    </a>
 
-                    <a href="https://www.instagram.com/aly_frncn/" target="_blank" class="social-icon">
-                        <img src="images/social.png" alt="Instagram">
-                    </a>
+        <div class="section-header text-center mb-5">
 
-                    <a href="https://github.com/francinalyssa" target="_blank" class="social-icon">
-                        <img src="images/github-logo.png" alt="GitHub">
-                    </a>
+            <span class="section-tag">Achievements</span>
 
-                    <a href="https://www.linkedin.com/in/alyssa-francin-eyay-317a55396" target="_blank" class="social-icon">
-                        <img src="images/linkedin.png" alt="LinkedIn">
-                    </a>
-                </div>
+            <h2>Certificates</h2>
 
-                <!-- Phone number under the icons -->
-                <div class="mt-2 d-flex align-items-center">
-                    <img src="images/phone.png" alt="Phone" style="width:20px;height:20px;margin-right:8px;">
-                    <span>+63 906-513-6745</span>
+            <p>
+                Certifications and online courses that have strengthened my technical knowledge and skills.
+            </p>
+
+        </div>
+
+        <div class="row row-cols-2 row-cols-md-3 row-cols-xl-5 g-4">
+            <!-- Certificate 1 -->
+            <div class="col">
+            <div class="certificate-card">
+                <i class="bi bi-file-earmark-code-fill"></i>
+                    <h4>HTML & CSS</h4>
+                    <p class="issuer">SoloLearn</p>
+                    <small>December 2, 2022</small>
                 </div>
             </div>
 
+            <!-- Certificate 2 -->
+            <div class="col">
+                <div class="certificate-card">
+                    <i class="bi bi-bar-chart-fill"></i>
+                    <h4>Data Fundamentals</h4>
+                    <p class="issuer">IBM SkillsBuild</p>
+                    <small>November 13, 2024</small>
+                </div>
             </div>
+
+            <!-- Certificate 3 -->
+            <div class="col">
+                <div class="certificate-card">
+                    <i class="bi bi-cpu-fill"></i>
+                    <h4>Artificial Intelligence Fundamentals</h4>
+                    <p class="issuer">IBM SkillsBuild</p>
+                    <small>November 13, 2024</small>
+                </div>
+            </div>
+
+            <!-- Certificate 4 -->
+            <div class="col">
+                <div class="certificate-card">
+                    <i class="bi bi-code-slash"></i>
+                    <h4>Applied Data Science with Python</h4>
+                    <p class="issuer">Cisco Networking Academy</p>
+                    <small>November 20, 2024</small>
+                </div>
+            </div>
+
+            <!-- Certificate 5 -->
+            <div class="col">
+            <div class="certificate-card">
+                <i class="bi bi-file-earmark-code-fill"></i>
+                    <h4>Big Data Foundations</h4>
+                    <p class="issuer">IBM SkillsBuild</p>
+                    <small>November 16, 2024</small>
+                </div>
+            </div>
+
+            
+
+        </div>
+
     </div>
+
 </section>
 
+            <div class="col-md-6">
 
+                <div class="certificate-card">
 
+                    <i class="bi bi-patch-check-fill"></i>
+
+                    <h4>BSIT Graduate</h4>
+
+                    <p>Batangas State University</p>
+                    <p>The National Engineering University</p>
+                    <p>ARASOF-NASUGBU</p>
+                </div>
+
+            </div>
+
+            
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= CONTACT ========================= -->
+
+<section id="contact" class="contact py-5">
+
+    <div class="container">
+
+        <div class="contact-box">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+
+                    <span class="section-tag">
+                        Contact
+                    </span>
+
+                    <h2>Let's Work Together</h2>
+
+                    <p>
+
+                        I'm currently open to entry-level opportunities,
+                        internships, and collaborations.
+
+                    </p>
+
+                    <div class="contact-info">
+
+                        <p>
+
+                            <i class="bi bi-envelope-fill"></i>
+
+                            francinalyssa@gmail.com
+
+                        </p>
+
+                        <p>
+
+                            <i class="bi bi-telephone-fill"></i>
+
+                            +63 906 513 6745
+
+                        </p>
+
+                        <p>
+
+                            <i class="bi bi-geo-alt-fill"></i>
+
+                            Batangas, Philippines
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 text-center">
+
+                    <div class="social-links large">
+
+                        <a href="https://facebook.com/alii.frncin" target="_blank">
+
+                            <i class="bi bi-facebook"></i>
+
+                        </a>
+
+                        <a href="https://github.com/francinalyssa" target="_blank">
+
+                            <i class="bi bi-github"></i>
+
+                        </a>
+
+                        <a href="https://linkedin.com/in/alyssa-francin-eyay-317a55396"
+                            target="_blank">
+
+                            <i class="bi bi-linkedin"></i>
+
+                        </a>
+
+                        <a href="mailto:francinalyssa@gmail.com">
+
+                            <i class="bi bi-envelope-fill"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= FOOTER ========================= -->
+
+<footer>
+
+    <div class="container">
+
+        <h4>Alyssa Francin Eyay</h4>
+
+        <p>
+            Thank you for visiting my portfolio.
+            I appreciate your time and hope we can connect soon.
+        </p>
+
+        <hr>
+
+        <p class="copyright">
+
+            © 2026 Alyssa Francin Eyay. All Rights Reserved.
+
+        </p>
+
+    </div>
+
+</footer>
+
+<!-- Bootstrap -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JavaScript -->
 
 <script src="js/script.js"></script>
 
 </body>
+
 </html>
